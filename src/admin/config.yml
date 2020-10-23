@@ -155,6 +155,17 @@ collections:
                   widget: 'boolean',
                   required: false,
                 }
+      - label: 'Social'
+        name: 'social'
+        delete: false
+        file: 'src/_data/social.json'
+        fields:
+          - label: 'Items'
+            name: 'items'
+            widget: 'list'
+            fields:
+              - {label: 'Text', name: 'text', widget: 'string'}
+              - {label: 'Url', name: 'url', widget: 'string'}
       - label: 'Theme Settings'
         name: 'theme'
         delete: false
