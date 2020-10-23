@@ -10,6 +10,7 @@
   --color-bg-glare: #{get-color('light')};
   --color-text: #{get-color('dark')};
   --color-text-glare: #{get-color('dark')};
+  --color-text-negative: #{get-color('light')};
   --color-selection-text: #{get-color('light')};
   --color-selection-bg: #{get-color('dark')};
   --color-stroke: #{get-color('mid')};
@@ -25,6 +26,7 @@
   --color-bg: #{get-color('dark')};
   --color-bg-glare: #{get-color('slate')};
   --color-text: #{get-color('light')};
+  --color-text-negative: #{get-color('dark')};
   --color-selection-text: #{get-color('dark')};
   --color-selection-bg: #{get-color('light')};
   --color-stroke: #{get-color('slate')};

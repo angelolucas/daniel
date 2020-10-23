@@ -1,7 +1,11 @@
 .site-head {
+  background: var(--color-theme-highlight-block);
+  color: var(--color-text-negative);
+  text-transform: uppercase;
+
   &__site-name {
+    color: var(--color-text-negative);
     font-weight: 700;
     text-decoration: none;
-    color: var(--color-text);
   }
 }
